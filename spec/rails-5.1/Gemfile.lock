@@ -1,10 +1,12 @@
 PATH
   remote: ../..
   specs:
-    consul (0.12.4)
+    consul (0.13.1)
+      activerecord
+      activesupport
       edge_rider (>= 0.3.0)
       memoizer
-      rails
+      railties
 
 GEM
   remote: https://rubygems.org/
@@ -157,4 +159,4 @@ DEPENDENCIES
   sqlite3
 
 BUNDLED WITH
-   1.15.1
+   1.15.4
